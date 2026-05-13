@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evan's Webdev Final Project Site</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-light">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Evan's Webdev Final Project Page</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#projects">Projects</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Projects section, uses bootstrap + cards from Wk6 labs-->
+    <section id="projects">
+      <h1 class="text-center mb-4">Projects</h1>
+      <main class="container my-4">
+        <div class="row">
+          <div class="col-lg-4 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title text-center">Lady's Library</h2>
+                <p class="card-text">
+                  A Python + Flask Web Application that houses my library of
+                  books in a PostgreSQL Database
+                </p>
+                <p class="card-text">
+                  Supports CRUD functionality, as well as robust searching via
+                  books parameters. Uses Alembic for database updates, and
+                  restructuring when needed. Runs in Google Cloud via dockerized
+                  container. Libraries: Flask, Alembic
+                </p>
+                <div class="mt-auto text-center">
+                  <a
+                    href="https://github.com/EJB-GH/ladys-library"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title text-center">Earthquake Data Project</h2>
+                <p class="card-text">
+                  Jupyter Notebook project exploring historic earthquake data
+                </p>
+                <p class="card-text">
+                  Includes standard data cleaning, masking, and visualization.
+                  Libraries: Numpy, Pandas, Seaborn, Cartopy, Matplotlib
+                </p>
+                <div class="mt-auto text-center">
+                  <a
+                    href="https://github.com/EJB-GH/Earthquake-data-project"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title text-center">Gemini MCP Server</h2>
+                <p class="card-text">A Cloud Run Gemini Based MCP Server</p>
+                <p class="card-text">
+                  Python based server-client MCP server using Google APIs and
+                  requests. Agent takes a book name and queries google books
+                  API, then uses that information to suggest like books. Agent
+                  then takes location input and shows nearby bookstores.
+                  Libraries: fastmcp, langchain, requests, langgraph,
+                  langchain-mcp-adapters, langchain_google_genai
+                </p>
+                <div class="mt-auto text-center">
+                  <a
+                    href="https://github.com/EJB-GH/MCP-BookAgent-Server"
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Repository Link
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p class="mb-0">&copy; Evan's Webdev Final Project</p>
+    </footer>
+  </body>
+</html>

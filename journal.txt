@@ -1,0 +1,26 @@
+-- Journal --
+
+Session #1:
+
+For this session my first instinct was to use the most recent lab (Wk6) as a jumping
+off point. I liked the use of the card + bootstrap so I thought it would be a natural 
+fit for the projects section of the final project.
+
+To this end I used the Lab code as a bones for this section. But since this section would
+be one of many on the page, as I had already settled on mostly making this a single page 
+endeavor I had to realign and resection some of the structure. Plainly, all 3 project cards
+are housed in the projects section, with a single nav-link for the entire section. I retained
+the viewport shifting that made them stack and unstack in different window configurations.
+
+I also repurposed the "learn more" layout into a section for links instead, so I ditched the 
+buttons we had used and made them "Repository Link". I removed the modal portions are they were 
+no longer internal rendered objects, and added the target such that it opens new links instead of 
+rerouting the current page, which I personally despise.
+
+I am still tinkering with styling and layout attributes for the projects section as well. I removed
+some of the bootstrap classifications so I could more manually adjust the contrast of elements
+while retaining the color pattern I wanted. 
+
+Taking a break from the tweaking, I added the about section at the top to ensure the nav-links were working
+correctly. This is a simple sections with just a div and some paragraphs. It does have an attatched style class
+so I could add some padding to the edges and get it off the margins of the page.

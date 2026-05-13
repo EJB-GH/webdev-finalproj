@@ -1,0 +1,22 @@
+/* Color scheme: light tan */
+:root {
+  --color-bg: #d2c8b7;
+  --color-surface: #ede6d6;
+  --color-text: #3b2f1e;
+  --color-accent: #498993;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.card {
+  background-color: var(--color-surface);
+  border-color: var(--color-accent);
+}
+
+.navbar.bg-dark,
+footer.bg-dark {
+  background-color: var(--color-accent) !important;
+}

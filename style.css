@@ -11,6 +11,15 @@ body {
   color: var(--color-text);
 }
 
+.btn {
+    background-color: var(--color-accent);
+    border-color: var(--color-text);
+}
+
+.about {
+    padding: 1rem;
+}
+
 .card {
   background-color: var(--color-surface);
   border-color: var(--color-accent);

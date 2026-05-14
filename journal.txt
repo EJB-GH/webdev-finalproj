@@ -1,6 +1,6 @@
 -- Journal --
 
-Session #1:
+Session 1:
 
 For this session my first instinct was to use the most recent lab (Wk6) as a jumping
 off point. I liked the use of the card + bootstrap so I thought it would be a natural 
@@ -24,3 +24,22 @@ while retaining the color pattern I wanted.
 Taking a break from the tweaking, I added the about section at the top to ensure the nav-links were working
 correctly. This is a simple sections with just a div and some paragraphs. It does have an attatched style class
 so I could add some padding to the edges and get it off the margins of the page.
+
+
+Session 2:
+
+This time around I decided to tackle the contact me page. It felt most natural to make this a secondary page from 
+the home page. I have some experience with this from working on my personal project. The web app I am chipping away 
+at has a decent amount of html. In my application there are several secondary pages for things like adding books or 
+searching through the database. So I took what I did there and applied the form styling from the labs that tackled forms. 
+
+To ensure you could return easily I also added a home button that follows the submit button, so after you submit a contact 
+form you can easily return to the main page. 
+
+The form in the contact me page also uses bootstrap container and col/rol formatting because I just think bootstrap is 
+cool.
+
+At this point I also wanted to WAVE the project to this point to address any errors early before adding to them endlessly 
+and only finding out about the issues at the very end. A few times the contrast error popped up on some elements so I went 
+ahead and created a pure black text variable to nip that in the bud. It was elements that appeared on the blue header and footer 
+sections which makes sense. 

@@ -17,7 +17,9 @@ footer {
     color: var(--text-contrast);
     background-color: var(--color-accent);
 }
-
+.nav-link {
+    color: var(--text-contrast);
+}
 .btn {
     background-color: var(--color-accent);
     border-color: var(--color-text);
@@ -34,7 +36,3 @@ footer {
   color: var(--color-text);
 }
 
-.navbar.bg-dark,
-footer.bg-dark {
-  background-color: var(--color-accent);
-}

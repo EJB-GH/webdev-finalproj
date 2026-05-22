@@ -1,5 +1,15 @@
 -- Journal --
 
+General Notes about the styling: 
+
+Pages use primarily bootstrap cards, I use a general soft brown/tan styling on the background and foreground 
+of cards. Text is either dark brown or black to retain contrast for WAVE auditing. 
+
+Header and Footer sections are a nice soft teal/blue and the buttons across the site also use this color.
+
+Text in all areas is centered, bootstrap cards have modest padding in all areas to space from each other 
+and the margins. 
+
 Session 1:
 
 For this session my first instinct was to use the most recent lab (Wk6) as a jumping
@@ -43,3 +53,23 @@ At this point I also wanted to WAVE the project to this point to address any err
 and only finding out about the issues at the very end. A few times the contrast error popped up on some elements so I went 
 ahead and created a pure black text variable to nip that in the bud. It was elements that appeared on the blue header and footer 
 sections which makes sense. 
+
+Session 3:
+
+Primary focus at this time was getting the site deployed via github pages. I was looking to test a download javascript 
+function for the resume/experience section. So before I actually began working on that, I deployed the page. 
+
+From there I started working on another page, the experience page. This page is a lot like the previous pages 
+it has some bootstrap formatting (again because I like it a lot) and uses a series of lists to detail my experience and 
+skills. My experience section is relatively small so I included side by side cards for the skills section and then a card 
+beneath those cards for relevant classes I've taken. 
+
+The focus of this page outside of putting down a required section is to also have a javascript function that allows 
+visitors to download my resume if they happened to have interest.
+
+Session 4:
+
+Today I did some research and found a good source on downloading file functions in JavaScript file. The function is very simple, 
+it holds a filename, and a response that makes sure the file is fetchable. After that I create a url and a link for the file download 
+it then just activates on a click and downloads the file. Pretty simple overall, but the proof would be in testing it live. So I will push 
+the update and see if it works. 

@@ -14,20 +14,36 @@ body {
 
 header,
 footer {
-    color: var(--text-contrast);
-    background-color: var(--color-accent);
+  color: var(--text-contrast);
+  background-color: var(--color-accent);
 }
 .nav-link {
-    color: var(--text-contrast);
+  color: var(--text-contrast);
 }
 .btn {
-    background-color: var(--color-accent);
-    border-color: var(--color-text);
-    color: var(--text-contrast)
+  background-color: var(--color-accent);
+  border-color: var(--color-text);
+  color: var(--text-contrast);
 }
 
 .about {
-    padding: 1rem;
+  padding: 1rem;
+}
+
+.accordion-button,
+.accordion-body {
+  background-color: var(--color-surface);
+  color: var(--text-contrast);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--color-accent);
+  color: var(--text-contrast);
+}
+
+#about-accordion {
+  max-width: 700px;
+  margin: 0 auto;
 }
 
 .card {
@@ -35,4 +51,3 @@ footer {
   border-color: var(--color-accent);
   color: var(--color-text);
 }
-

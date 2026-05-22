@@ -73,3 +73,16 @@ Today I did some research and found a good source on downloading file functions 
 it holds a filename, and a response that makes sure the file is fetchable. After that I create a url and a link for the file download 
 it then just activates on a click and downloads the file. Pretty simple overall, but the proof would be in testing it live. So I will push 
 the update and see if it works. 
+
+As of my testing, the download works perfectly! I do need to add a return home button somewhere in the page in my next update. I've also noticed 
+that the 'home' page is listed as 'about' since thats the top section, so I am going to add a 'home' that just routes to the top of the landing page 
+just to make it clear that is the lander.
+
+Ok, updated the landing page to have a home section, and added that to the nav-bar.
+
+I spent some time re-reading over the requirements for the project, and landed on the extra components section. I decided to look into bootstrap accordion 
+information and found the official documentation, and it was a fairly simple implementation, getting the coloring correct took a little tweaking to get the 
+
+'button' portion when opened to match the color scheme, it was the first time I encountered a :not modifier for CSS. Using the documentation I modified the 
+about section to be an accordion. So you can click on 2 different buttons to expand them and see the contents, they are structured to match the 2 different eras 
+of work I've performed. Going to push this to live to WAVE and check overall status of the site.

@@ -82,7 +82,9 @@ Ok, updated the landing page to have a home section, and added that to the nav-b
 
 I spent some time re-reading over the requirements for the project, and landed on the extra components section. I decided to look into bootstrap accordion 
 information and found the official documentation, and it was a fairly simple implementation, getting the coloring correct took a little tweaking to get the 
-
 'button' portion when opened to match the color scheme, it was the first time I encountered a :not modifier for CSS. Using the documentation I modified the 
 about section to be an accordion. So you can click on 2 different buttons to expand them and see the contents, they are structured to match the 2 different eras 
 of work I've performed. Going to push this to live to WAVE and check overall status of the site.
+
+Before closing out this session (nearing the completion!) I made a pass on the headers for the other pages, as well as adding a home button to the 
+so that the users could return to the landing page from the experience page.

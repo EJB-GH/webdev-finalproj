@@ -88,3 +88,11 @@ of work I've performed. Going to push this to live to WAVE and check overall sta
 
 Before closing out this session (nearing the completion!) I made a pass on the headers for the other pages, as well as adding a home button to the 
 so that the users could return to the landing page from the experience page.
+
+Session 5:
+
+I decided to rename the site.html, to the more proper index.html so that the deployement directs by default to the landing page. Previously the site.html 
+needed to be requested directly. After renaming and editing all instances of site.html everything was fine. I pushed the deployment, and spent some time deciding 
+if there was anything else I really wanted to add before calling the site good. 
+
+I decided to add a section to the accordion I made for the about the author. This section was about my upcoming position that I am starting after graduation. 

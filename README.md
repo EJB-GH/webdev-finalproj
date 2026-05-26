@@ -2,7 +2,7 @@
 
 Final Project for CS463 Intro to Web Dev
 
-DEPLOYMENT: https://ejb-gh.github.io/webdev-finalproj/site.html
+DEPLOYMENT: https://ejb-gh.github.io/webdev-finalproj/
 
 -- Additional Sources --
 For buttons that dont reroute, but open new pages - https://www.youtube.com/watch?v=ejGx2ac08lg

@@ -2,7 +2,18 @@
 
 Final Project for CS463 Intro to Web Dev
 
-DEPLOYMENT: https://ejb-gh.github.io/webdev-finalproj/
+## How to Deploy
+
+The site is deployed via **GitHub Pages** from the `main` branch.
+
+Live URL: https://ejb-gh.github.io/webdev-finalproj/
+
+To redeploy, push changes to the `main` branch. GitHub Pages will automatically rebuild and publish the updated site within a minute or two.
+
+To enable/configure GitHub Pages:
+1. Go to **Settings → Pages** in the repository.
+2. Set the source to **Deploy from a branch → main → / (root)**.
+3. Save — the live URL above will reflect changes on the next push.
 
 -- Additional Sources --
 For buttons that dont reroute, but open new pages - https://www.youtube.com/watch?v=ejGx2ac08lg

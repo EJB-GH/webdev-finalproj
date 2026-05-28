@@ -43,7 +43,7 @@
       <h1 class="text-center text-decoration-underline mb-4">Contact</h1>
       <div class="row justify-content-center">
         <div class="col-lg-6">
-          <form>
+          <form id="contactForm">
             <div class="mb-3">
               <label for="contactName" class="form-label">Name</label>
               <input
@@ -63,6 +63,7 @@
                 placeholder="your@email.com"
                 required
               />
+              <div class="invalid-feedback">Please enter a valid email address.</div>
             </div>
             <div class="mb-3">
               <label for="contactMessage" class="form-label">Message</label>
@@ -74,7 +75,8 @@
                 required
               ></textarea>
             </div>
-            <div class="text-center mt-1">
+            <div id="formFeedback" class="d-none" role="alert" aria-live="polite"></div>
+            <div class="text-center mt-3">
               <button type="submit" class="btn">Send Message</button>
             </div>
             <div class="text-center mt-2">
@@ -88,5 +90,6 @@
     <footer class="text-center py-3">
       <p class="mb-0">&copy; Evan's Webdev Final Project</p>
     </footer>
+    <script src="scripts.js"></script>
   </body>
 </html>

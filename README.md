@@ -23,3 +23,8 @@ For adding a download function using JS for the resume section https://coreui.io
 Some character additions - https://www.w3schools.com/charsets/ref_utf_punctuation.asp
 
 Accordion information from documentation - https://getbootstrap.com/docs/5.3/components/accordion/
+
+All sources used for form validation JS additions:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+https://getbootstrap.com/docs/5.3/forms/validation/
+https://www.w3schools.com/js/js_validation.asp

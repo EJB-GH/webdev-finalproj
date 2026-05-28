@@ -1,3 +1,7 @@
+Repository - https://github.com/EJB-GH/webdev-finalproj
+Live URL: https://ejb-gh.github.io/webdev-finalproj/
+Video Link - TBD
+
 -- Journal --
 
 General Notes about the styling: 

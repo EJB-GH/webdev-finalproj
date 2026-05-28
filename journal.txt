@@ -96,3 +96,16 @@ needed to be requested directly. After renaming and editing all instances of sit
 if there was anything else I really wanted to add before calling the site good. 
 
 I decided to add a section to the accordion I made for the about the author. This section was about my upcoming position that I am starting after graduation. 
+
+
+Session 6: 
+
+After re-reading the requirements I realized I needed a little bit more javascript. So I decided to do some research on form validation in addition to the recent form 
+stuff we had done with js in a previous lab. To start, I moved the resume download function to a more general scripts.js file so I could add without it getting confusing 
+to read. Then I took a look at the event listener in the js sample code repo as well. 
+
+The function snags the form, and then runs some checks on the email input. I didnt feel like policing names or messages so I let the browser handle those just being required 
+fields in the html itself. The email however uses a simple regex to check for content, meaning it checks for @'s and .'s. A structure check basically. So the event listener 
+waits for a submit event. Then it removes bootstrap tag 'is-invalid' and then runs the validation on it. If the check clears, it prints a meesage sent line and resets the form 
+for further inputs, or it rejects the input and waits for another submit. Some small sub functions remove invalid tags in case the new input is a resubmit, and the showfeedback 
+function for the error and normal messages. It checks a boolean for success or failure that sets the coloring of the box with bootstrap alerts, and sets the text with div.textContent 

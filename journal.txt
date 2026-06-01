@@ -2,6 +2,22 @@ Repository - https://github.com/EJB-GH/webdev-finalproj
 Live URL: https://ejb-gh.github.io/webdev-finalproj/
 Video Link - TBD
 
+### Additional Sources
+
+For buttons that dont reroute, but open new pages - https://www.youtube.com/watch?v=ejGx2ac08lg
+
+For adding a download function using JS for the resume section https://coreui.io/answers/how-to-download-a-file-in-javascript/
+
+Some character additions - https://www.w3schools.com/charsets/ref_utf_punctuation.asp
+
+Accordion information from documentation - https://getbootstrap.com/docs/5.3/components/accordion/
+
+All sources used for form validation JS additions:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+https://getbootstrap.com/docs/5.3/forms/validation/
+https://www.w3schools.com/js/js_validation.asp
+
+
 -- Journal --
 
 General Notes about the styling: 
@@ -113,3 +129,9 @@ fields in the html itself. The email however uses a simple regex to check for co
 waits for a submit event. Then it removes bootstrap tag 'is-invalid' and then runs the validation on it. If the check clears, it prints a meesage sent line and resets the form 
 for further inputs, or it rejects the input and waits for another submit. Some small sub functions remove invalid tags in case the new input is a resubmit, and the showfeedback 
 function for the error and normal messages. It checks a boolean for success or failure that sets the coloring of the box with bootstrap alerts, and sets the text with div.textContent 
+
+
+Final Checks:
+
+All pages pass WAVE checks with 1 alert about a redundant link but I wanted to have all sections in the nav bar, so I am going to leave it as it with that one. It is just an alert and 
+not an error.
